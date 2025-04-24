@@ -4,7 +4,7 @@ function getLayout(layoutName) {
 
 setInterval(function() {
   var layout = getLayout();
-  if (layout.name == "Level 41") {
+  if (layout.name == "Level 60") {
     c2_callFunction("Menu > EndGame", []);
   }
 }, 16);
